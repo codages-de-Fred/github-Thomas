@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .danger {
+     color: red;
+ }
+ .div_inline {
+     display: flex;
+     flex-direction: row;
+ }
+ .form_reset {
+     margin-left: 5px;
+ }
+ #input_file {
+     display: none;
+ }
+ #faux_bouton_file {
+     color: red;
+ }
+
+ .inline {
+     display: flex;
+     flex-direction: row;
+ }
+ .marge_left {
+     margin-left: 5px;
+ }

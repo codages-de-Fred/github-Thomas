@@ -1,0 +1,64 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .div_inline_end {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.marge {
+    margin-left: 5px;
+}
+
+.bouton_plus_moins {
+    border: 2px solid grey;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.separator_annonces_submenu {
+    min-width: 80%;
+    min-height: 1px;
+    background-color: white;
+    margin: auto;
+}
+.container_photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.div_photo_update_annonce {
+    max-width: 75%;
+    min-width: 75%;
+}
+.div_photo_list_photos {
+    max-width: 20%;
+    min-width: 20%;
+    box-shadow: none;
+}
+
+.designation_input {
+    max-width: 200px;
+}
+.photo {
+    max-width: 100%;
+    min-width: 100%;
+}
+.margin_top {
+    padding-top: 3px;
+}
+
+.ajout_photo_update {
+    margin-top: 5%;
+}
+
+.hover:hover{
+    background-color: #F9F9F9;
+}
